@@ -35,7 +35,7 @@ def main():
         B1 = B1 + dB1
 
 
-        if epoka % 5 == 0:
+        if epoka % 10 == 0:
             plt.clf()
             plt.plot(P,T, 'r*')
             plt.plot(P,np.array(A2).flatten())
